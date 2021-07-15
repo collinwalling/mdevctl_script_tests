@@ -1,0 +1,12 @@
+[package]
+name = "script_test"
+version = "1.0.0"
+authors = ["Collin Walling <walling@linux.ibm.com>"]
+edition = "2018"
+license = "LGPL-2.1"
+
+[dependencies]
+structopt = "0.3.13"
+uuid = {version = "0.8.2", features = ["v4"]}
+strum = "0.21"
+strum_macros = "0.21"
